@@ -1,7 +1,8 @@
 import mysql.connector
 
-#connect to database using a driver.Python needs a MySQL driver to access the MySQL database.
-mydb = mysql.connector.connect(host="localhost",user="user1",passwd="password",database ="mydatabase")
+#connect to database using a driver.Python needs a MySQL driver to access the MySQL database. 
+#add your username and password of the database
+mydb = mysql.connector.connect(host="localhost",user="your user name",passwd="*******",database ="mydatabase")
 #The cursor class. class cursor. Allows Python code to execute PostgreSQL command in a database session.
 # Cursors are created by the connection.cursor() method: they are bound to the connection for the entire lifetime
 # and all the commands are executed in the context of the database session wrapped by the connection.
